@@ -57,4 +57,4 @@ python3 -m pip install pymod
 
 🙌 Love **Modular Python**? Help improve it! Feel free to submit pull requests, report bugs, or suggest new features.
 
-[![Star](https://img.shields.io/github/stars/dhanush-web/modular-python?style=social)](https://github.com/dhanush-web/modular-python/stargazers)
+[![Star](https://img.shields.io/github/stars/dhanush-web/modular-python?style=social)](https://github.com/dhanush-web/pymod-cli/stargazers)
