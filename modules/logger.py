@@ -79,6 +79,9 @@ class Logger:
     def delete_log_file(self) -> None:
         os.remove(self.file_name)
 
+    def is_active(self) -> bool:
+        return not self.file.closed
+
     def log(self, message: str, level: str = "message", debug_once: bool = False) -> None:
         dt = datetime.datetime.now()
         level = level if self.level.__contains__(level) else "unknown"
