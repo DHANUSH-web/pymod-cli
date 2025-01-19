@@ -1,4 +1,5 @@
 from modules.logger import Logger
+from typing import Optional
 import unittest
 import datetime
 
@@ -9,7 +10,7 @@ class TestLogger(unittest.TestCase):
     def setUpClass(cls):
         # Initialize logger
         cls.start_time: datetime = datetime.datetime.now()
-        cls.stop_time: datetime or None = None
+        cls.stop_time: Optional[datetime.datetime] = None
         cls.logger: Logger = Logger(debug=True)
 
     # setup will be called before every test case
