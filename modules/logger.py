@@ -77,6 +77,8 @@ class Logger:
         return list(self.level.keys())
 
     def delete_log_file(self) -> None:
+        if self.is_active():
+            raise RuntimeError("Logger is active, please stop the logger before deleting log file")
         os.remove(self.file_name)
 
     def is_active(self) -> bool:
