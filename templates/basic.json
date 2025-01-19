@@ -1,0 +1,26 @@
+{
+  "root": [
+    {
+      "modules": ["__init__.py"],
+      "assets": ["__init__.py"]
+    },
+    [
+      "requirements.txt",
+      "setup.py",
+      "main.py",
+      ".gitignore",
+      "README.md",
+      "requirements.txt"
+    ]
+  ],
+  "venv": ".venv",
+  "git": {
+    "branch": "main"
+  },
+  "title": "Beginner Template - Getting started with Python",
+  "author": {
+    "name": "Dhanush H V",
+    "email": "dhanushhv75@gmail.com",
+    "website": "https://dhanushhv.vercel.app"
+  }
+}

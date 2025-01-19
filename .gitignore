@@ -1,0 +1,17 @@
+# Folder
+.venv/
+.virt/
+.vscode/
+.fleet/
+.idea/
+cache/
+__pycache__/
+
+# Files
+.env*
+*.exe
+*.deb
+*.dmg
+
+# Others
+
