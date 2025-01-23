@@ -103,6 +103,10 @@ class Logger:
         print(f"{self.level[level]['color']}{message}{Color.RESET}", flush=True)
 
     def exit_logger(self) -> None:
+        if not self.is_active():
+            self.__print_log(message="No active logger found to exit", level="warning")
+            return
+        
         # update the stop logger timer
         self._end_time = datetime.datetime.now()
 
