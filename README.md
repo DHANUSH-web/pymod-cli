@@ -28,7 +28,7 @@ The tool also allows developers to create and share custom templates, promoting 
 
 1. Clone the repository:
    ```commandline
-   git clone https://github.com/dhanush-web/modular-python.git
+   git clone https://github.com/dhanush-web/pymod-cli.git
    ```
 
 2. Install the package:
