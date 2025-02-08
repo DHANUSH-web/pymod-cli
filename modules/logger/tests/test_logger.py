@@ -1,4 +1,12 @@
-from logger.logger import Logger
+"""
+    ************************************************************************
+    Copyright (c) 2025 Dhanush H V. All rights reserved.
+    Licensed under the MIT License. See the LICENSE file for more details.
+    ************************************************************************
+"""
+
+
+from logger import Logger
 import unittest
 import os
 
