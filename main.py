@@ -1,4 +1,4 @@
-from modules.logger import Logger
+from modules.logger.logger import Logger
 
 # Logger start
 logger: Logger = Logger(debug=True)

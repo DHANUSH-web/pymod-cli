@@ -1,4 +1,4 @@
-from modules.logger import Logger
+from logger.logger import Logger
 import unittest
 import os
 
